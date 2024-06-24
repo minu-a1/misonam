@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  </head>
+  <body>
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-expand-lg " style="background-color: rgb(246, 226, 55);">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+        <img src="./images/logo.jpg" alt="logo sm" width="200px" height="80px">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Client</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">STARTER</a>
+                   <ul>
+                    <li>Momo</li>
+                    <li>Noodles</li>
+                    <li>Coffee</li>
+                   </ul>
+                </li>
+                  <li><a class="dropdown-item" href="#">MAIN COURSE
+                    <ul>
+                        <li>Veg thali</li>
+                        <li>Non-veg thali</li>
+                        <li>Pahari thali</li>
+                    </ul>
+                  </a></li>
+                  <li><hr class="dropdown-divider">DESERTS
+                <ul>
+                    <li>ice cream</li>
+                    <li>kulfi</li>
+                    <li>rabri</li>
+                </ul>
+                </li>
+                  <li><a class="dropdown-item" href="#"></a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- slider starts hm carosoul use krege documentation se -->
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img   src="./images/my hotel logo.png" height="600" width="1800" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-center text-white">First welcome in SURYAMINUSONAM HOTEL GUYS....  </h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/slide2.jpg" height="600" width="250" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-warning">Second STARTS SELECTING YOUR RECIPIES</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://img.freepik.com/premium-photo/capture-essence-momos-mouthwatering-food-photography-shot_442337-14079.jpg?w=1060" height="600" width="250" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-warning">Third ORDER YOUR MEAL</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+           <img src="https://img.freepik.com/free-vector/trendy-welcome-back-banner-rejoining-team_1017-50155.jpg?t=st=1719154483~exp=1719158083~hmac=d6513b58099979b7a5630f9991cd30e3934b659fc4b337149cd73a0811f33ffd&w=826" height="600" width="250" class="d-block w-100" alt="pic" ">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-warning">Fourth PAY AND VISIT AGAIN</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- section1 -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 mt-3">
+                <h3 class="display-6 text-center text-danger ">SPECIAL TREAT WITH SPECIAL FEEL AND SPECIAL TASTE <br> Are you ready to Taste?<br>
+                  <p class="text-secondary text-center">कन्याल होटल आपका स्वागत करता है. मीनू होटल की मालकिन है.कृपा खाये और सीधे भुगतान मेरे को करे.... कन्याल जी को तारना की अनुमति नहीं है. बुरे नज़र वाला तेरा मुँह काला..</p> 
+                </h3>
+            </div>
+        </div>
+        <!-- feature -->
+         <div class="row justify-content-evenly  pt-3 pb-3">
+            <div class="col-md-3 text-center mt-5">
+                <h1><i class="bi bi-egg-fried text-danger"></i></h1>
+              <h2 class="text-danger">BUILD WITH CUSTOMERS</h2>
+              <H3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, molestias?</H3>
+
+
+            </div>
+
+
+
+
+
+        <div class="col-md-3 text-center  mt-5">
+            <h1><i class="bi bi-amd text-warning text-center "></i></h1>
+             <H2 class="text-danger">BUILD FOR CUSTOMERS</H2>
+             <H3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, ut!</H3>
+             </div>
+
+        <div class="col-md-3 text-center  mt-5">
+            <h1> <i class="bi bi-backpack2 text-info text-center"></i></h1>
+            <H2 class="text-danger">BUILD TO CUSTOMERS</H2>
+            <H3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, laborum.</H3>
+          </div>
+         </div>
+         <!-- line break --> <hr>
+
+         <!--Growth -->
+     <div class="row justify-content-evenly">
+      <div class="col-md-5 pt-3">
+        <img class="img-fluid" src="./images/sonam.png" height="600px" width="600px"
+      </div>
+      </div>
+      <div class="col-md-5 pt-3"><h1>customer likes</h1><br>
+       <h3 class="mt-3">Momo</h3>
+        <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar bg-success" style="width: 25%"></div>
+        </div>
+        <h3 class="mt-3">cookies</h3>
+        <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar bg-info" style="width: 50%"></div>
+        </div>
+        <h3 class="mt-3">thali</h3>
+        <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar bg-warning" style="width: 75%"></div>
+        </div>
+        <h3 class="mt-3">veg platter</h3>
+        <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar bg-danger" style="width: 100%"></div>
+        </div>
+        <h3>Special Thali</h3>
+        <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar bg-primary" style="width: 80%"></div>
+        </div>
+      </div>
+     </div>
+     <!-- contact -->
+      <div class="row mt-5  pt-3 pb-5 justify-content-evenly" style="background-color: hsla(0, 2%, 68%, 0.693);">
+      <div class="col-md-5">
+        <form>
+          <h2 class="text-danger mb-5">REGISTER KRE <br>APNA FAMILY FOOD POINT MAI...</h2>
+          <div class="mb-3">
+            <label for="name" class="form-label">Enter Your Name</label>
+            <input type="text" class="form-control" id="name">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Enter your message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+      <div class="col-md-5 mt-5">
+        <h3 class="mb-3"></h3>
+        <p>Near Haridwar Railway Station, <br>Haridwar, India
+          <br><i class="bi bi-telephone-fill"></i> Telephone: +844547817o</p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3457.216978055074!2d78.15377708885495!3d29.94443690000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3909471e9664a523%3A0x47b5b7c4097a5738!2sSattvik%20Restaurant!5e0!3m2!1sen!2sin!4v1719197461647!5m2!1sen!2sin" style="width: 100%;"
+           height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+  
+
+        </div>
+ <!-- faq starts -->
+        <div class="row pt-5 pb-5 justify-content-evenly">
+          <div class="col-md-10">
+            <h3 class="text-center pb-4">FAQ</h3>
+            <div class="accordion accordion-flush" id="accordionFlushExample border">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Accordion Item #1
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Accordion Item #2
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Accordion Item #3
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                </div>
+              </div>
+            </div>
+<!-- footer -->
+<div class="row justify-content-evenly mt-3 text-white" style="background-color: black;">
+  <h2 class="text-center pb-5">CONTACT US</h2>
+  <div class="col-md-3 text-center">
+   <h3>Sonam Food Point</h3> 
+  <p>Sonam Resturant and family food point ek aise jagh hi jo apko ghr se bhar ghar jaisa swad de..aaye hme sewa ka awsar pradan kree..WE WELCOME YOU ALL...</p>
+  </div>
+  <div class="col-md-3 text-center">
+    <h3> Address</h3>
+    <p>Near Haridwar Railway Station, <br>Haridwar, India
+      <br><i class="bi bi-telephone-fill"></i> Telephone: +844547817o</p>
+  </div>
+  <div class="col-md-3">
+    <h3>Important Link</h3>
+    <p style="font-size: large;">
+      <a href="www.whatapp.com"> <i class="bi bi-whatsapp text-success"></i>Whatapp</a><br>
+      <a href="www.facebook.com"><i class="bi bi-facebook text-primary"></i>Facebook</a><br>
+      <a href="https://www.instagram.com/cornminuflavor3/ text-info"><i class="bi bi-instagram " style="color: rgb(233, 31, 233);"></i>Instagram</a><br>
+      <a href=" www.google.com"><i class="bi bi-google text-warning"></i>Google</a><br>
+    </p>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+
+
+
+
+
+
+
+    </div>
+    
+
+
+  </body>
+</html>
